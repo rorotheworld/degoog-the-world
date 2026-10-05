@@ -1,4 +1,4 @@
-# degoog-extensions
+# degoog-the-world extensions
 
 [degoog](https://github.com/degoog-org/degoog) extensions - plugins, engines, and themes.
 
