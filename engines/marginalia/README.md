@@ -1,6 +1,6 @@
 # Marginalia engine
 
-Searches [Marginalia Search](https://search.marginalia.nu/), the independent web
+Searches [Marginalia](https://search.marginalia.nu/), the independent web
 index of small, non-commercial, human-made sites. Results appear in the **web** tab and
 via the `!mg` bang shortcut.
 
