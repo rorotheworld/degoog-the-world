@@ -4,7 +4,7 @@ Searches [Marginalia Search](https://search.marginalia.nu/), the independent web
 index of small, non-commercial, human-made sites. Results appear in the **web** tab and
 via the `!mg` bang shortcut.
 
-Requires **Degoog 0.19.0** or newer.
+Requires **degoog 0.19.0** or newer.
 
 ## Setup
 

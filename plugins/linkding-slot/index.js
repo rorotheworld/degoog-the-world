@@ -51,14 +51,14 @@ const cfg = {
 };
 
 // The address the server fetches from and the address the browser can open are
-// not always the same. If linkding is only reachable from Degoog over an
+// not always the same. If linkding is only reachable from degoog over an
 // internal Docker network, `url` is that internal address and `publicUrl` is
 // the one a person can actually click. Falls back to `url` when unset.
 const _linkUrl = () => cfg.publicUrl || cfg.url;
 
 // Set in init() from the host context. Used only to de-duplicate this plugin's
 // own repeat queries (pagination, back/forward). It cannot see the engine's
-// traffic: Degoog gives engines no cache factory at all.
+// traffic: degoog gives engines no cache factory at all.
 let _cache = null;
 let _ctxFetch = null;
 
@@ -84,7 +84,7 @@ const REQUEST_TIMEOUT_MS = 3_000;
 
 const _isConfigured = () => Boolean(cfg.url && cfg.token);
 
-// Degoog stores toggles as the string "false", and Boolean("false") is true.
+// degoog stores toggles as the string "false", and Boolean("false") is true.
 const _bool = (v) =>
   v === true || v === "true"
     ? true
@@ -100,7 +100,7 @@ const _clamp = (v, min, max, fallback) => {
   return Math.max(min, Math.min(max, Number.isFinite(n) ? n : fallback));
 };
 
-// Degoog exposes a cache under two different names depending on version, and
+// degoog exposes a cache under two different names depending on version, and
 // may expose neither. Probe for both, then fall back to running uncached.
 function _makeCache(ctx, namespace, ttlMs) {
   if (typeof ctx?.useCache === "function") return ctx.useCache(namespace, ttlMs);
@@ -189,9 +189,9 @@ export const slot = {
       fieldset: "Connection",
       placeholder: "https://linkding.example.com",
       description:
-        "Base URL Degoog uses to reach linkding, with no trailing slash. Point " +
+        "Base URL degoog uses to reach linkding, with no trailing slash. Point " +
         "it at the site root, not at /bookmarks. This may be an internal " +
-        "address such as http://linkding:9090 if that is how the Degoog " +
+        "address such as http://linkding:9090 if that is how the degoog " +
         "container reaches it.",
     },
     {
@@ -223,7 +223,7 @@ export const slot = {
       type: "toggle",
       default: true,
       fieldset: "Panel",
-      description: "Display matching bookmarks next to the Degoog results.",
+      description: "Display matching bookmarks next to the degoog results.",
     },
     {
       key: "style",

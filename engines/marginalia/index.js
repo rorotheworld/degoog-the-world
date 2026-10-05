@@ -1,4 +1,4 @@
-// Marginalia engine for Degoog
+// Marginalia engine for degoog
 //
 // Searches the Marginalia Search independent web index (small-web, non-commercial
 // sites). Results appear in the web tab and via the !mg bang shortcut.

@@ -2,7 +2,7 @@
 //
 // IMPORTANT: this file is duplicated byte-for-byte at
 //   plugins/linkding-slot/linkding.js
-// Degoog installs every extension folder independently, with no shared level
+// degoog installs every extension folder independently, with no shared level
 // between them, so this code cannot be factored out into one place. If you edit
 // one copy, edit the other. `git diff` across the two paths will show any drift.
 

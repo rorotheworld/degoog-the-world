@@ -2,7 +2,7 @@
 
 [degoog](https://github.com/degoog-org/degoog) extensions - plugins, engines, and themes.
 
-Currently: [linkding](https://github.com/sissbruecker/linkding) bookmark integrations and a locally-served dictionary card.
+Currently: [linkding](https://github.com/sissbruecker/linkding) bookmark integrations, a marginalia engine, and a locally-served dictionary card.
 
 ## Extensions
 
@@ -10,7 +10,8 @@ Currently: [linkding](https://github.com/sissbruecker/linkding) bookmark integra
 | --- | --- | --- | --- |
 | [linkding](plugins/linkding-slot) | Plugin (slot) | Panel of matching bookmarks alongside normal search results | 0.24.0 |
 | [linkding Engine](engines/linkding-engine) | Engine | Dedicated linkding results tab and the `!ld` bang | 0.21.0 |
-| [Dictionary](plugins/define-slot) | Plugin (slot) | Definitions, pronunciation, synonyms/antonyms and etymology from a self-hosted dictionary server ([dic-ser](https://github.com/rorotheworld/dic-ser)) with PowerThesaurus enrichment. Adapted from [SoPat712/degoog-toolkit](https://github.com/SoPat712/degoog-toolkit). | 0.24.0 |
+| [Dictionary](plugins/define-slot) | Plugin (slot) | Definitions, pronunciation, synonyms/antonyms and etymology from a self-hosted dictionary server with PowerThesaurus enrichment. Adapted from [SoPat712/degoog-toolkit](https://github.com/SoPat712/degoog-toolkit). | 0.24.0 |
+| [Marginalia engine](engines/marginalia) | Engine | Searches [Marginalia Search](https://search.marginalia.nu/), the independent web index of small, non-commercial, human-made sites. | 0.19.0 |
 
 Each extension is independent. Install any of them alone or all together.
 
